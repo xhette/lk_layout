@@ -1,0 +1,23 @@
+.header-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 60px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-content: center;
+}
+
+.header-nav-item {
+  margin: 0 2em;
+}
+
+.header-nav-item-link {
+  color: $text-secondary;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}

@@ -1,0 +1,70 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+input {
+  border: 1px solid $text-secondary;
+  color: $text-primary;
+  display: flex;
+}
+
+input[type=date]{
+  text-align: center;
+}
+
+input.input-medium {
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.text-with-icon {
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  :first-child {
+    margin-right: 7px;
+  }
+
+  :last-child {
+    align-self: center;
+  }
+}
+
+.button-primary {
+  @include orange-bg-gradient;
+  color: white;
+  border: none;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: $dark-orange;
+  border: 1px solid $dark-orange;
+}
+
+.button-medium {
+  padding: 6px 26px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.button-medium-with-icon {
+  padding: 6px 18px 8px 12px;
+
+  :first-child {
+    margin-right: 8px;
+  }
+}

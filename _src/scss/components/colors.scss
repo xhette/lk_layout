@@ -1,0 +1,18 @@
+$bg-color: #F5F7FA;
+$text-primary: #4E4D53;
+$text-secondary: #9EA0A5;
+$light-gray: #D9D9D9;
+$light-orange: #FCA311;
+$dark-orange: #F08000;
+$dark-blue: #0077B6;
+$light-blue: #00B4D8;
+$status-green: #0FB600;
+$status-red: #B61600;
+
+@mixin orange-bg-gradient {
+  background-color: $dark-orange;
+  background-image: -webkit-linear-gradient(230deg, $dark-orange, $light-orange);
+  background-image: -moz-linear-gradient(230deg, $dark-orange, $light-orange);
+  background-image: -ms-linear-gradient(230deg, $dark-orange, $light-orange);
+  background-image: -o-linear-gradient(230deg, $dark-orange, $light-orange);
+}
