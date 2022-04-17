@@ -1,0 +1,66 @@
+<div class="userpage-fincard">
+  <h3>Финансы</h3>
+  <div class="userpage-fincard-payments">
+    <div id="userpage-fincard-prepayment" class="userpage-fincard-payment-block">
+      <div class="userpage-fincard-payment-text">
+        <span class="userpage-fincard-payment-name">
+          Аванс
+        </span>
+        <span class="userpage-fincard-payment-date">
+          21/02/2022
+        </span>
+      </div>
+      + 550.00₽
+    </div>
+    <div id="userpage-fincard-debt" class="userpage-fincard-payment-block">
+      <div class="userpage-fincard-payment-text">
+        <span class="userpage-fincard-payment-name">
+          Задолженность
+        </span>
+        <span class="userpage-fincard-payment-date">
+          21/02/2022
+        </span>
+      </div>
+      - 550.00₽
+    </div>
+    <div id="userpage-fincard-final-pay" class="userpage-fincard-payment-block">
+      <div class="userpage-fincard-payment-text">
+        <span class="userpage-fincard-payment-name">
+          Итого к оплате
+        </span>
+        <span class="userpage-fincard-payment-date">
+          21/02/2022
+        </span>
+      </div>
+      550.00₽
+    </div>
+  </div>
+  <div class="fincard-table-layout">
+    <div class="fincard-table-head">
+      <h4>Сводная таблица начислений и платежей</h4>
+      <div class="filter-payments-form">
+        Расчет за период
+        <div class="input-payments-date-group">
+          <span>от</span>
+          <input type="date" id="input-payments-date-from" class="input-payments-date input-medium"/>
+        </div>
+        <div class="input-payments-date-group">
+          <span>до</span>
+          <input type="date" id="input-payments-date-to" class="input-payments-date input-medium"/>
+        </div>
+        <button id="payments-input-button" type="submit" class="button-primary button-medium button-medium-with-icon">
+          <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.34784 4.66666L13.9131 4.66666" stroke="white" stroke-linecap="round"/>
+            <path d="M2.78259 4.66666L5.5652 4.66666" stroke="white" stroke-linecap="round"/>
+            <path d="M11.8261 11.3333L13.9131 11.3333" stroke="white" stroke-linecap="round"/>
+            <path d="M2.78259 11.3333L8.34781 11.3333" stroke="white" stroke-linecap="round"/>
+            <ellipse cx="6.95653" cy="4.66667" rx="1.33333" ry="1.3913" transform="rotate(90 6.95653 4.66667)" stroke="white" stroke-linecap="round"/>
+            <ellipse cx="10.4348" cy="11.3333" rx="1.33333" ry="1.3913" transform="rotate(90 10.4348 11.3333)" stroke="white" stroke-linecap="round"/>
+          </svg>            
+          Отфильтровать
+        </button>
+      </div>
+    </div>
+    <partial src="fincard_table.html"></partial>
+  </div>
+</div>

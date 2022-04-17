@@ -1,0 +1,73 @@
+.sidebar {
+  background-color: white;
+  padding: 2rem;
+  font-size: 16px;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-block {
+  align-self: center;
+}
+
+.sidebar-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: $text-secondary;
+  margin: 5rem 2.5rem;
+  flex-grow: 2;
+}
+
+.sidebar-nav-item {
+  margin: 1rem 0;
+}
+
+.sidebar-nav-item-link > svg {
+  color: $light-blue;
+}
+
+.sidebar-nav-item-link-selected {
+  color: $dark-orange;
+
+  & > svg {
+    color: $dark-orange;
+  }
+
+  &:hover {
+    color: $dark-orange!important;
+  }
+}
+
+.sidebar-nav-item-link {
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.sidebar-footer {
+  justify-self: flex-end;
+  align-self: center;
+  margin: 0 2.5rem;
+  text-align: center;
+}
+
+.footer-company-name {
+  color: $text-primary;
+  font-size: 12px;
+}
+
+.sidebar-footer-contacts {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  color: $text-secondary;
+
+  & > li {
+    margin: 0.2em 0;
+  }
+}

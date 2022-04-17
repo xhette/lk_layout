@@ -1,0 +1,77 @@
+.userpage-fincard {
+  margin: 5em 0;
+}
+
+.userpage-fincard-payments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userpage-fincard-payment-block {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  font-size: 20px;
+}
+
+.userpage-fincard-payment-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+}
+
+.userpage-fincard-payment-name {
+  font-size: 16px;
+  margin: 0.2rem 0;
+  color: $text-primary;
+}
+
+.userpage-fincard-payment-date {
+  font-size: 12px;
+  margin: 0.2rem 0;
+  color: $text-secondary;
+}
+
+#userpage-fincard-prepayment {
+  color: $status-green;
+}
+
+#userpage-fincard-debt {
+  color: $status-red;
+}
+
+#userpage-fincard-final-pay {
+  color: $dark-blue;
+}
+
+.fincard-table-layout {
+  margin: 5rem 0;
+}
+
+.fincard-table-head {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  justify-content: space-between;
+}
+
+.filter-payments-form {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.input-payments-date-group {
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+.input-payments-date {
+  margin-left: 0.5rem;
+}
+
+#payments-input-button {
+  margin-left: 2.5rem;
+}

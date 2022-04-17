@@ -1,0 +1,49 @@
+.fincard-table-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem 4rem;
+  margin: 2rem 0;
+}
+
+.fincard-table {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  color: $text-primary;
+  border-collapse: collapse; 
+
+  & thead {
+    font-size: 16px;
+  }
+
+  & tbody {
+    font-size: 14px;
+  }
+
+  & tr {
+    line-height: 4rem;
+    border-bottom: 1px solid $light-gray;
+  }
+}
+
+
+
+.fincard-table-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto 0 auto;
+  color: $text-secondary;
+}
+
+.fincard-pagination-arrow, .fincard-pagination-number {
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.fincard-page-active {
+  color: $light-blue;
+}

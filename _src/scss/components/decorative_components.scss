@@ -21,8 +21,12 @@ input[type=date]{
 
 input.input-medium {
   border-radius: 4px;
-  padding: 6px;
+  padding: 0.1rem;
   font-size: 14px;
+}
+
+button {
+  cursor: pointer;
 }
 
 .text-with-icon {
@@ -67,4 +71,18 @@ input.input-medium {
   :first-child {
     margin-right: 8px;
   }
+}
+
+h3 {
+  font-size: 20px;
+  color: $dark-blue;
+  font-weight: 500;
+  padding: 0 2em;
+}
+
+h4 {
+  font-size: 18px;
+  color: $dark-blue;
+  font-weight: 400;
+  padding: 0 2em;
 }
