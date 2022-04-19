@@ -1,0 +1,38 @@
+.tariffs-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-shrink: 2;
+}
+
+.tariff-block {
+  background-color: white;
+  border-radius: 10px;
+  margin: 2rem;
+  display: flex;
+  padding: 2.5rem;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: $dark-blue;
+}
+
+.tariff-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15rem;
+}
+
+.tariff-name {
+  font-size: 16px;
+  margin: 0.5rem 0;
+  color: $text-primary;
+  color: $text-primary;
+}
+
+.tariff-company {
+  font-size: 12px;
+  margin: 0.2rem 0;
+  color: $text-secondary;
+  font-weight: 300;
+}
